@@ -11,7 +11,7 @@ client2
 client3
 client4
 ```
-Create directories for each client including a list of blog urls and an element (such as "div", "article" etc) and class ("post", "post-body", "content" etc).
+Create directories for each client including a list of blog urls and an element (such as "div", "article" etc) and class ("post", "post-body", "content" etc). You can find these by inspecting the elements of one of the blog pages for each website.
 
 It should look something like this:
 
@@ -21,12 +21,22 @@ It should look something like this:
 ├── clients.txt
 ├── client1
 │   ├── blogurls.txt
+│   ├── class.txt
+│   ├── element.txt
 ├── client2
 │   ├── blogurls.txt
+│   ├── class.txt
+│   ├── element.txt
 ├── client3
 │   ├── blogurls.txt
+│   ├── class.txt
+│   ├── element.txt
 └── client4
     └── blogurls.txt
+    ├── class.txt
+    └── element.txt
 
 ```
-When you run `./blogreader` it will create a new directory called `blogs` where it will stored the contents of each blog within their own file named after the blog url.
+When you run `./blogreader` it will create a new directory called `blogs` where it will store the contents of each blog within their own file named after the blog url.
+
+
